@@ -1,0 +1,41 @@
+.session-div:hover {
+    background-color: #f5f5f5;
+}
+
+.session-intent {
+    /* sets the font to bold and orange */
+    font-weight: bold;
+    margin-left: 0.5em;
+    
+}
+
+.session-count {
+    /* set the font-color to gray */
+    color: #999;
+}
+
+/* add x before session-count */
+.session-count::before {
+    content: "⨉";
+    /* set the font-color to light-gray */
+    color: #ccc;
+}
+
+.session-button {
+    margin-top: 0.25em;
+}
+
+.session-category {
+    /* rounded corners and orange background */
+    border-radius: 0.25em;
+    /* background color to orange */
+    background-color: #ffa500;
+    /* add a little padding to right */
+    /* padding-left: 0.25em; */
+    padding-right: 0.25em;
+    padding-left: 0.25em;
+    margin-left: 0.5em;
+    /* set the font-color to white */
+    color: #fff;
+    padding-bottom: 0.05em;
+}

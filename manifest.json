@@ -4,5 +4,5 @@
   "description": "A Simple Plugin that Launches Session from Obsidian",
   "isDesktopOnly": false,
   "js": "main.js",
-  "css": "session.css"
+  "css": "styles.css"
 }
