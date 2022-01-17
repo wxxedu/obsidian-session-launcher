@@ -1,7 +1,8 @@
 {
-  "id": "your-obsidian-plugin",
-  "name": "Obsidian Plugin Template",
-  "description": "A Simple Template for Plugins",
+  "id": "obsidan-session-launcher",
+  "name": "Obsidian Session Launcher",
+  "description": "A Simple Plugin that Launches Session from Obsidian",
   "isDesktopOnly": false,
-  "js": "main.js"
+  "js": "main.js",
+  "css": "session.css"
 }
